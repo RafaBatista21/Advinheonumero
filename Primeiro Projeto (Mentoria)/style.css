@@ -72,8 +72,26 @@ body{
 
 #itens{
 
-
     color: darkorange;
     justify-content: center;
 
 }
+
+footer
+{
+		text-align: center;
+		padding: 40px 0;
+}
+.imgfinal{
+    width: 15%;
+}
+
+
+.copyright
+{
+		color: #FFFFFF;
+		font-size: 13px;
+		margin: 20px 0 0;
+
+}
+

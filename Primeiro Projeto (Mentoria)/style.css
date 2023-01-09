@@ -69,3 +69,11 @@ body{
 	background: red;
 	transform: scale(1.0);
 }
+
+#itens{
+
+
+    color: darkorange;
+    justify-content: center;
+
+}

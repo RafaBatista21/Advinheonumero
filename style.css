@@ -1,0 +1,97 @@
+.caixa{
+
+    background: linear-gradient(rgb(37, 8, 65), #7e1111)
+    display: flex;
+    text-align: center;
+
+
+}
+
+.logo{
+
+    width: 8%;
+
+
+
+
+}
+.titulo
+{
+
+    color: lightgray;
+    text-align: center;
+}
+
+.imagemprincipal{
+    width: 50%;
+
+
+
+}
+
+body{
+
+    background: linear-gradient(rgb(37, 8, 65), #7e1111);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagemcentro{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloescolha{
+    color:snow;
+    text-align: center;
+    
+
+}
+
+
+.pergunta{
+
+    text-align: center;
+}
+.enviar{
+    background: #e5e5e5;
+    width: 7%;
+    flex-wrap: wrap;
+    padding: 8px 0;
+	color: black;
+	font-weight: bold;
+	font-size: 10px;
+	border: none ;
+    border-radius: 25px;
+	transition: 2s all;
+	cursor: pointer;
+}
+.enviar:hover{
+	background: red;
+	transform: scale(1.0);
+}
+
+#itens{
+
+    color: darkorange;
+    justify-content: center;
+
+}
+
+footer
+{
+		text-align: center;
+		padding: 40px 0;
+}
+.imgfinal{
+    width: 15%;
+}
+
+
+.copyright
+{
+		color: #FFFFFF;
+		font-size: 13px;
+		margin: 20px 0 0;
+
+}
+

@@ -13,7 +13,9 @@ enviarButton.addEventListener("click", function(){
         if(numRand==valorUser){
 
             resposta.style.color= "green"; 
-            resposta.textContent= "VOCE ACERTOU";
+            resposta.textContent= "VOCE ACERTOU!!!!";
+            setTimeout(function(){ window.location.reload();
+            },5000);
         }
         else if ( numRand>valorUser)
         {
@@ -62,7 +64,8 @@ function startTimer(duration, display) {
         if(minutes == 0 & seconds==0) 
         {
     
-            alert("SEU TEMPO ACABOU.... TENTE NOVAMENTE")   
+            alert("SEU TEMPO ACABOU.... TENTE NOVAMENTE") 
+            window.location.reload();
         }        
 
     }, 1000);

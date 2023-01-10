@@ -4,12 +4,13 @@ const resposta= document.querySelector("#itens")
 const numRand= Math.floor(Math.random() * (20 + 1));
 
 
+
 enviarButton.addEventListener("click", function(){
 
     const valorUser= valorDigitado.value;
 
 
-    if (valorUser<=20){
+    if (valorUser<=20 && valorUser>=0) {
         if(numRand==valorUser){
 
             resposta.style.color= "green"; 
@@ -29,11 +30,12 @@ enviarButton.addEventListener("click", function(){
             resposta.textContent = "Errou. Um conselho o numero é MENOR que esse." 
 
         }
+        
 
     }
     else{
         resposta.style.color= "white";
-        resposta.textContent = "Voce digitou um valor fora dos limites de 1 a 20." 
+        resposta.textContent = "Voce digitou um valor fora dos limites de 0 a 20." 
     }
 
 
